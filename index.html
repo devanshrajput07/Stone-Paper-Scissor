@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Stone Paper Scissors</h1>
+
+    <div id="game-container">
+      <div id="user-choice">
+        <h2>Your Choice</h2>
+        <button onclick="playMove('Stone')">Stone</button>
+        <button onclick="playMove('Paper')">Paper</button>
+        <button onclick="playMove('Scissor')">Scissor</button>
+        <div>
+          <img id="user-img" src="img/q2.jpg" alt="User's Choice" />
+        </div>
+      </div>
+      <div>
+        <h2>VS</h2>
+      </div>
+
+      <div id="computer-choice">
+        <h2>Computer's Choice</h2>
+        <img id="computer-img" src="img/q1.jpg" alt="Computer's Choice" />
+      </div>
+    </div>
+
+    <div id="result"></div>
+    <div id="score"></div>
+
     <script src="script.js"></script>
   </body>
 </html>
