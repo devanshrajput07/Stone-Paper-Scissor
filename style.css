@@ -57,4 +57,7 @@ img {
   max-width: 200px;
   max-height: 200px;
   border-radius: 10px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  /* mix-blend-mode: color-burn; */
 }
